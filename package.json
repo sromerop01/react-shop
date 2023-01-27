@@ -1,0 +1,27 @@
+{
+  "name": "react-shop",
+  "version": "1.0.0",
+  "description": "react eshop",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sromerop01/react-shop.git"
+  },
+  "keywords": [
+    "React",
+    "javascript"
+  ],
+  "author": "Santiago Romero <sromerop2001@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sromerop01/react-shop/issues"
+  },
+  "homepage": "https://github.com/sromerop01/react-shop#readme",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
