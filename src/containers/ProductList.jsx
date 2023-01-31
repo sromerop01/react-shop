@@ -1,6 +1,6 @@
 import React from 'react';
 import ProductItem from 'components/ProductItem';
-import useGetProduct from '../assets/hooks/useGetProducts';
+import useGetProduct from '../hooks/useGetProducts';
 import style from 'styles/ProductList.scss';
 
 const API ='https://api.escuelajs.co/api/v1/products';
