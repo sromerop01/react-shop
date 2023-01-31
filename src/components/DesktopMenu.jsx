@@ -1,4 +1,5 @@
 import React from 'react';
+import style from 'styles/DesktopMenu.scss';
 
 const MenuDesktop = () => {
     return ( 
