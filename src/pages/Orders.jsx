@@ -5,10 +5,10 @@ import '../styles/Orders.scss';
 
 const Orders = () => {
     return (
-        <div class="my-order">
-            <div class="my-order-container">
-                <h1 class="title-my-order">Mis pedidos</h1>
-                <div class="my-order-content">
+        <div className="my-order">
+            <div className="my-order-container">
+                <h1 className="title-my-order">Mis pedidos</h1>
+                <div className="my-order-content">
                   <OrderItem/>
                 </div>
             </div>

@@ -3,17 +3,17 @@ import '../styles/NewPassword.scss';
 
 const NewPassword = () => {
     return ( 
-        <div class="login">
-            <div class="form-container new-password">
-                <img src="./Assets/Logos/logo_yard_sale.svg" alt="logo" class="logo"/>
-                <h1 class="title">Crea una nueva contraseña</h1>
-                <p class="subtitle">Ingresa una nueva contraseña para tu cuenta</p>
-                <form action="" class="form">
-                    <label for="password" class="label">Contraseña</label>
-                    <input type="password" id="password" placeholder="********" class="input input-pass"/>
-                    <label for="new-password" class="label">Reingrese la contraseña</label>
-                    <input type="password" id="new-password" placeholder="********" class="input input-pass"/>
-                    <input type="submit" value="Confirmar" class="primary-button login-button"/>
+        <div className="login">
+            <div className="form-container new-password">
+                <img src="./Assets/Logos/logo_yard_sale.svg" alt="logo" className="logo"/>
+                <h1 className="title">Crea una nueva contraseña</h1>
+                <p className="subtitle">Ingresa una nueva contraseña para tu cuenta</p>
+                <form action="" className="form">
+                    <label htmlFor="password" className="label">Contraseña</label>
+                    <input type="password" id="password" placeholder="********" className="input input-pass"/>
+                    <label htmlFor="new-password" className="label">Reingrese la contraseña</label>
+                    <input type="password" id="new-password" placeholder="********" className="input input-pass"/>
+                    <input type="submit" value="Confirmar" className="primary-button login-button"/>
                 </form>
             </div>
         </div>
