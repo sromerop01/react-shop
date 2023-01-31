@@ -4,8 +4,8 @@ import "../styles/global.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Layout from "../containers/Layout";
-import Login from "../containers/Login";
-import PasswordRecovery from "../containers/PasswordRecovery";
+import Login from "../pages/Login";
+import PasswordRecovery from "../pages/PasswordRecovery";
 import Home from "../pages/Home";
 import NotFound from "../pages/NotFound";
 

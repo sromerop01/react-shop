@@ -1,0 +1,35 @@
+@use 'vars';
+
+.ProductItem{
+    width: 240px;
+}
+.ProductItem img{
+    width: 100%;
+    height: 240px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+.ProductInfo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ProductInfo div p:nth-child(1){
+    font-weight: bold;
+    font-size: var(--md);
+    margin-top: 8px;
+    margin-bottom: 4px;
+}
+.ProductInfo div p:nth-child(2){
+    font-size: var(--sm);
+    margin-top: 0;
+    margin-bottom: 0;
+    color: var(--very-light-gray);
+}
+.ProductInfo figure{
+    margin: 0;
+}
+.ProductInfo figure img{
+    width: 35px;
+    height: 35px;
+}

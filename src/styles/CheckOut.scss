@@ -1,0 +1,38 @@
+@use 'vars';
+
+.title-my-order{
+    font-size: var(--lg);
+    margin-bottom: 40px;
+    
+}
+.my-order-container{
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    width: 300px;
+}
+.my-order-content{
+    display: flex;
+    flex-direction: column;
+}
+.my-order-info{
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    gap: 16px;
+    align-items: center;
+    background-color: var(--text-input-field);
+    padding: 0 24px;
+    border-radius: 8px;
+    margin-bottom: 12px;
+    font-weight: bold;
+}
+.my-order-info p:nth-child(1){
+    display: flex;
+    flex-direction: column;
+}
+.my-order-info p:nth-child(2){
+    text-align: end;
+}
+.my-order-info span:nth-child(2){
+    font-size: var(--sm);
+    color: var(--very-light-gray);
+}
