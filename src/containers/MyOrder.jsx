@@ -9,6 +9,12 @@ import OrderItem from '../components/OrderItem';
 const MyOrder = () => {
     const { state } = useContext(AppContext);
 
+    const sumTotal = () => {
+        const reducer = (accumalator, currentValue) => accumalator + currentValue.price;
+        const sum = state.cart.reduce(reducer, 0);
+        return sum;
+    }
+
     return ( 
         <aside className="shopping-cart">
             <div className="shopping-cart-container">
@@ -17,9 +23,15 @@ const MyOrder = () => {
                     <p className="title-container">Mi Orden</p>
                 </div>
                 <div className="shopping-cart-content">
-                    {state.cart.map(product =>(
-                        <OrderItem product={product} key={`orderItem-${product.id}`}/>
+                    {state.cart.map((product, id) =>(
+                        <OrderItem product={product} key={id}/>
                     ))}
+                    <div className="my-order-info">
+                        <p>
+                            <span>Total</span>
+                        </p>
+                        <p>${sumTotal()}</p>
+                    </div>
                     <button className="primary-button add-to-cart">
                         <img src={AddCart} alt=""/>
                         Confirmar
