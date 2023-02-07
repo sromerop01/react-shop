@@ -1,6 +1,7 @@
 import React from 'react';
 import '../styles/OrderItem.scss';
 import Image from 'images/switch.jfif';
+import Close from '../assets/Icons/icon_close.png';
 
 const OrderItem = () => {
     return ( 
@@ -10,7 +11,7 @@ const OrderItem = () => {
              </figure>
             <p>Producto 1</p>
             <p>$$$$$$$</p>
-            <img src="./Assets/Icons/icon_close.png" alt="close"/>
+            <img src={Close} alt="close"/>
         </div>
      );
 }
