@@ -10,6 +10,20 @@
     position: absolute;
     right: 0;
     top: 60px;
+    overflow-y: scroll;
+    max-height: 600px;
+}
+.shopping-cart::-webkit-scrollbar {
+    width: 10px;
+    
+}
+.shopping-cart::-webkit-scrollbar-track {
+    background: var(--white);
+    border-radius: 10px;
+}
+.shopping-cart::-webkit-scrollbar-thumb {
+    background: var(--hospital-green);
+    border-radius: 10px;
 }
 .title-container {
     display: flex;
